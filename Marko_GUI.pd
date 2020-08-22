@@ -1,0 +1,21 @@
+#N canvas 204 158 1025 484 12;
+#X obj 224 130 cnv 15 300 100 empty empty empty 20 12 0 14 -204786
+-66577 0;
+#X obj 224 130 main;
+#X text 553 209 Press Melody to load our midi numbers taken from the
+precipitation average in BCN from 1985 to 2015;
+#X text 555 124 On/Off for starting the patch.;
+#X text 551 245 This patch works as a midi intrument that sends signal
+to another synth in Pure Data or DAW (ie. Ableton). We decided to use
+Ableton and record there for that matter.;
+#X text 555 138 Press Reset to clear the melody and restart again.
+;
+#X text 554 166 Transpose ranges between -12 to 12 semitones.;
+#X text 555 182 Max BPM is 200;
+#X obj 224 68 ui.label @size 300 47 @receive "(null)" @send "(null)"
+@pinned 1 @background_color 1 1 1 1 @border_color 0.6 0.6 0.6 1 @label_color
+0 0 0 1 @text_color 0 0 0 1 @label "(null)" @label_inner 0 @label_side
+"top" @label_align "left" @label_valign "top" @label_margins 0 0 @align
+"left" @text "EL" "MARKO" @fontname "Helvetica" @fontweight "normal"
+@fontslant "roman" @fontsize 32 @margin_top 5 @margin_left 5 @margin_bottom
+5 @margin_right 5;
